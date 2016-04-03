@@ -1,0 +1,1 @@
+# omnirom_device_g750t01
