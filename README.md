@@ -1,5 +1,5 @@
 ----omnirom for MTK hardware.---
-# Omnirom 13.0
+# Omnirom
 
 This is a device tree for huawei g750t01 which is based on MT6592 SoC. Powered by ferhung.
 # Build
