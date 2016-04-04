@@ -7,7 +7,7 @@ This is a device tree for huawei g750t01 which is based on MT6592 SoC. Powered b
 * init
   Sync Omnirom source:
 
-        # repo init -u git://github.com/omnirom-mtk/android-mtk.git -b cm-13.0        
+        # repo init -u git://github.com/omnirom-mtk/android-mtk.git -b android-6.0        
         # repo sync
 
 * full build
