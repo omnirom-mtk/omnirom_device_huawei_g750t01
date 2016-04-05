@@ -12,7 +12,7 @@ ifneq ($(BOARD_HOSTAPD_DRIVER),)
     CONFIG_DRIVER_$(BOARD_HOSTAPD_DRIVER) := y
 endif
 
-include $(WPA_SUPPL_DIR)/wpa_supplicant/android.config
+include $(LOCAL_PATH)/android.config
 
 WPA_SUPPL_DIR_INCLUDE = $(WPA_SUPPL_DIR)/src \
 	$(WPA_SUPPL_DIR)/src/common \
