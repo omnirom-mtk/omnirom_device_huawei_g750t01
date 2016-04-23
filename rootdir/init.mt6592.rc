@@ -36,18 +36,18 @@ on fs
 # mount different fs end
 
 on post-fs
-    exec /system/bin/mknod /dev/wmtWifi c 153 0
+    exec /system/xbin/mknod /dev/wmtWifi c 153 0
     chmod 0660 /dev/wmtWifi
     chown system system /dev/wmtWifi
 
-    exec /system/bin/mknod /dev/Vcodec c 160 0
+    exec /system/xbin/mknod /dev/Vcodec c 160 0
     chmod 0660 /dev/Vcodec
     chown system media /dev/Vcodec
 
-    exec /system/bin/mknod /dev/stpwmt c 190 0
-    exec /system/bin/mknod /dev/stpgps c 191 0
+    exec /system/xbin/mknod /dev/stpwmt c 190 0
+    exec /system/xbin/mknod /dev/stpgps c 191 0
     
-    exec /system/bin/mknod /dev/stpbt  c 192 0
+    exec /system/xbin/mknod /dev/stpbt  c 192 0
     chmod 0660 /dev/stpbt
     chown bluetooth radio /dev/stpbt
 
