@@ -272,21 +272,5 @@
     <bool name="config_enableAutoPowerModes">true</bool>
     
     <integer name="config_deviceHardwareKeys">7</integer>
-    
-    <!-- Performance profiles -->
-	<!--
-    <string name="config_perf_profile_prop">sys.perf.profile</string>
-    <string name="config_perf_profile_default_entry">1</string> -->
 
-    <!-- Enable the option to check proximity sensor when deciding whether to
-         turn the screen on
-         NOTE ! - Enable for devices that have a fast response proximity sensor -->
-	<!--
-    <bool name="config_proximityCheckOnWake">true</bool>
-    <integer name="config_proximityCheckTimeout">400</integer> -->
-	<!-- The RadioAccessFamilies supported by the device.
-         Empty is viewed as "all".  Only used on devices which
-         don't support RIL_REQUEST_GET_RADIO_CAPABILITY
-         format is UMTS|LTE|... -->
-   <string translatable="false" name="config_radio_access_family">GSM|WCDMA|HS</string>
 </resources>
