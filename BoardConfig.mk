@@ -80,6 +80,9 @@ TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/recovery.fstab
 
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/virtual/android_usb/android0/f_mass_storage/lun%d/file"
 
+# Sensors
+TARGET_NO_SENSOR_PERMISSION_CHECK := true
+
 # TWRP stuff
 DEVICE_RESOLUTION := 720x1280
 TARGET_SCREEN_HEIGHT := 1280
