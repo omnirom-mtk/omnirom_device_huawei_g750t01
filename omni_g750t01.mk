@@ -4,9 +4,6 @@ PRODUCT_RELEASE_NAME := g750t01
 # Inherit some common omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
-# Inherit some gsm omni stuff.
-$(call inherit-product, vendor/omni/config/gsm.mk)
-
 # Inherit device configuration
 $(call inherit-product, device/huawei/g750t01/device.mk)
 
