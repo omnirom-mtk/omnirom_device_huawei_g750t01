@@ -1,6 +1,8 @@
 # Release name
 PRODUCT_RELEASE_NAME := g750t01
 
+LOCAL_PATH := device/huawei/g750t01
+
 # Inherit some common omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
