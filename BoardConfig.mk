@@ -108,6 +108,7 @@ TW_BRIGHTNESS_PATH := /sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brigh
 TW_EXCLUDE_SUPERSU := true
 TW_EXTRA_LANGUAGES := true
 TW_BUILD_ZH_CN_SUPPORT := true
+TW_DEFAULT_LANGUAGE := zh_CN
 TARGET_RECOVERY_INITRC := $(LOCAL_PATH)/recovery/init.rc
 #TARGET_PREBUILT_RECOVERY_KERNEL := $(LOCAL_PATH)/recovery_kernel
 
